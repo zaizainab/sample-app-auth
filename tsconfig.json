@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "lib": [
+      "es2016"
+    ],
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    },
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "./build",
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.json",
+  ],
+  "exclude": [
+    "node_modules",
+    "./src/**/tests/*.ts"
+  ]
+}
